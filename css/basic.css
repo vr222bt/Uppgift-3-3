@@ -2,7 +2,9 @@
 
 /* Colours:
     Background topbar : #554840
-    Background content : #EAE8D3
+    Background content : #eae7d2
+    background menu : #797066
+    text content: #aead9f
 
 */
 
@@ -21,5 +23,22 @@
         
 #content
         {
-            background-color: #EAE8D3 ;
+            
+            background-color: #eae7d2 ;
+            color : #ac9c8a;
+        }
+        
+#maincontent
+        {
+            width: 700px;
+            float: left;
+        }
+        
+#subcontent
+        {
+            margin-left: 700px;
+            width: 299px;
+            border-left-style: dashed;
+            border-left-color: black;
+            border-left-width: 1px;
         }
