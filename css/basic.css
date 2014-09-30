@@ -34,6 +34,7 @@
             width: 1000px;
             background-color: #eae7d2 ;
             color : #ac9c8a;
+            font-family: "Times new roman" , serif ;
         }
         
 #maincontent
@@ -46,6 +47,7 @@
         
 #subcontent
         {
+            font-size: 85%;
             padding-left: 10px;
             padding-right: 10px;
             margin-left: 700px;
@@ -53,6 +55,13 @@
             border-left-style: dashed;
             border-left-color: black;
             border-left-width: 1px;
+        }
+        
+#bottomcontent
+        {
+            padding-bottom: 10px;
+            padding-left: 5px;
+            text-align: left;
         }
         
 #menu
@@ -77,6 +86,11 @@
             padding: 0;
             overflow: hidden;
             text-transform: capitalize;
+            position: relative;
+            bottom: 0px;
+            left: 20px;
+            top: 10px;
+            
         }
 
 #menu li 
@@ -138,4 +152,12 @@ img
             border-style: solid;
             border-width: 5px;
             border-color: #eae7d2;
+        }
+        
+        
+/* Links */
+#content a:link a:visited
+        {
+            color : blue;
+
         }
