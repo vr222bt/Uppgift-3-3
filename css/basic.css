@@ -42,3 +42,38 @@
             border-left-color: black;
             border-left-width: 1px;
         }
+        
+#menu
+         {
+             width: 1000px;
+             background-color: #554840;
+         }
+        
+        
+        
+/* Menu */
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a {
+    display: block;
+    background-color: #797066;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #554840;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
