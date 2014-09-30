@@ -30,21 +30,26 @@
         
 #content
         {
-            
+            float: left;
+            width: 1000px;
             background-color: #eae7d2 ;
             color : #ac9c8a;
         }
         
 #maincontent
         {
-            width: 700px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 680px;
             float: left;
         }
         
 #subcontent
         {
+            padding-left: 10px;
+            padding-right: 10px;
             margin-left: 700px;
-            width: 299px;
+            width: 279px;
             border-left-style: dashed;
             border-left-color: black;
             border-left-width: 1px;
@@ -52,35 +57,62 @@
         
 #menu
          {
+             border: 0px;
              width: 1000px;
              background-color: #554840;
+             
          }
         
         
         
 /* Menu */
 
-#menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+#menu ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-transform: capitalize;
+        }
 
-#menu li {
-    float: left;
-}
+#menu li 
+        {
+            float: left;
+            background-color: #797066;
+        }
 
-#menu a {
-    display: block;
-    background-color: #797066;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #554840;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    
-}
+#menu a:link, a:visited
+        {
+            display: block;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-left-color: #554840;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            
+        }
+
+#menu a:hover
+        {
+            display: block;
+            background-color: #9c9084;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-left-color: #554840;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            
+        }
+        
+#menu .active
+        {
+            background-color: #eae7d2;
+            color : #ac9c8a;
+        }
