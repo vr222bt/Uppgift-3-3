@@ -100,7 +100,27 @@
             
         }
 
-#menu a:link, a:visited
+#menu a:link
+        {
+            display: block;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-left-color: #554840;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            height: 20px;
+            
+           
+            
+        }
+        
+#menu a:visited
         {
             display: block;
             padding-left: 5px;
@@ -163,4 +183,20 @@ img
         {
             color : blue;
 
+        }
+        
+/* Random */
+
+h1, h2
+        {
+            font-weight: normal;
+        }
+        
+ul
+        {
+            list-style: none;
+            color : #ac9c8a;
+            text-indent: 0px;
+            padding-left: 0px;
+            margin-top: 0px;
         }
