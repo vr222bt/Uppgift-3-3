@@ -19,6 +19,13 @@
         {
             background-color: #554840 ;
             color: white;
+            height: 330px;
+            background-image: url(pics/coffey.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: 1000px 300px ;
+            background-origin: content-box;
+            text-align: right;
         }
         
 #content
