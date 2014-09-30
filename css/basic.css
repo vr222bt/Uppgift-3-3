@@ -1,1 +1,25 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+/* Colours:
+    Background topbar : #554840
+    Background content : #EAE8D3
+
+*/
+
+#container
+        {
+            max-width: 1000px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+#topbar
+        {
+            background-color: #554840 ;
+            color: white;
+        }
+        
+#content
+        {
+            background-color: #EAE8D3 ;
+        }
