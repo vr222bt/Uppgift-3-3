@@ -34,20 +34,26 @@
             width: 1000px;
             background-color: #eae7d2 ;
             color : #ac9c8a;
-            font-family: "Times new roman" , serif ;
+            
         }
         
 #maincontent
         {
+            
             padding-left: 10px;
             padding-right: 10px;
             width: 680px;
             float: left;
         }
         
+#maincontent p
+        {
+            font-family: "Verdana" , serif ;
+        }
+        
 #subcontent
         {
-            font-size: 85%;
+            font-size: 12px;
             padding-left: 10px;
             padding-right: 10px;
             margin-left: 700px;
@@ -55,6 +61,12 @@
             border-left-style: dashed;
             border-left-color: black;
             border-left-width: 1px;
+        }
+        
+#subcontent p
+        {
+            font-family: "Arial" , serif ;
+
         }
         
 #bottomcontent
